@@ -78,4 +78,3 @@ main.py
 ## Estado del proyecto
 
 Primer avance funcional: procesamiento de datos y modelo de clasificación implementado.
-# An-lisis-de-sentimientos
