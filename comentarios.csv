@@ -1,0 +1,21 @@
+comentario,sentimiento
+"Me encanta este producto, es excelente",positivo
+"Es horrible, no sirve para nada",negativo
+"Está bien, cumple su función",neutral
+"La calidad es muy buena, lo recomiendo",positivo
+"No me gustó, es muy malo",negativo
+"No está mal, pero podría mejorar",neutral
+"Superó mis expectativas",positivo
+"Es una pérdida de dinero",negativo
+"Funciona normal, nada del otro mundo",neutral
+"Estoy muy satisfecho con la compra",positivo
+"Definitivamente no lo volvería a comprar",negativo
+"Es aceptable, pero hay mejores opciones",neutral
+"Excelente servicio y producto",positivo
+"Muy mala experiencia",negativo
+"Ni bueno ni malo",neutral
+"Me gustó mucho",positivo
+"Terrible calidad",negativo
+"Está promedio",neutral
+"Lo recomiendo totalmente",positivo
+"No vale la pena",negativo
