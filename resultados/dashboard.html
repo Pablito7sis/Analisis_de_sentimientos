@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard de Sentimientos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f6f7f9; color: #20242a; }
+    header { background: #17202a; color: white; padding: 28px 40px; }
+    main { padding: 28px 40px; max-width: 1100px; margin: auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card { background: white; border: 1px solid #e1e5ea; border-radius: 8px; padding: 18px; }
+    .metric { font-size: 34px; font-weight: 700; margin-top: 8px; }
+    img { max-width: 100%; border: 1px solid #e1e5ea; border-radius: 8px; background: white; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
+    th, td { text-align: left; padding: 12px; border-bottom: 1px solid #e8ebef; }
+    th { background: #eef1f4; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Plataforma de Analisis de Sentimiento</h1>
+    <p>Resultados generados con pandas, scikit-learn, numpy y matplotlib.</p>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="card"><span>Accuracy</span><div class="metric">26.67%</div></article>
+      <article class="card"><span>Comentarios procesados</span><div class="metric">58</div></article>
+      <article class="card"><span>Tiempo de procesamiento</span><div class="metric">0.0184s</div></article>
+    </section>
+    <section class="grid" style="margin-top:16px">
+      <article class="card"><h2>Distribucion de sentimientos</h2><img src="distribucion_sentimientos.png" alt="Distribucion de sentimientos"></article>
+      <article class="card"><h2>Matriz de confusion</h2><img src="matriz_confusion.png" alt="Matriz de confusion"></article>
+    </section>
+    <section style="margin-top:16px">
+      <h2>Predicciones de prueba</h2>
+      <table>
+        <thead><tr><th>Comentario</th><th>Real</th><th>Prediccion</th></tr></thead>
+        <tbody><tr><td>Esta promedio</td><td>neutral</td><td>negativo</td></tr>
+<tr><td>Esta bien, cumple su funcion</td><td>neutral</td><td>negativo</td></tr>
+<tr><td>Estoy muy satisfecho con la compra</td><td>positivo</td><td>negativo</td></tr>
+<tr><td>La entrega fue demasiado tarde</td><td>negativo</td><td>negativo</td></tr>
+<tr><td>No esta mal, pero podria mejorar</td><td>neutral</td><td>neutral</td></tr>
+<tr><td>La compra fue sencilla y segura</td><td>positivo</td><td>negativo</td></tr>
+<tr><td>Tiene aspectos buenos y malos</td><td>neutral</td><td>negativo</td></tr>
+<tr><td>El producto llego danado</td><td>negativo</td><td>positivo</td></tr>
+<tr><td>No vale la pena</td><td>negativo</td><td>negativo</td></tr>
+<tr><td>La atencion fue amable y clara</td><td>positivo</td><td>negativo</td></tr>
+<tr><td>La calidad es muy buena y lo recomiendo</td><td>positivo</td><td>positivo</td></tr>
+<tr><td>Lo recomiendo totalmente</td><td>positivo</td><td>negativo</td></tr>
+<tr><td>La entrega estuvo dentro de lo esperado</td><td>neutral</td><td>negativo</td></tr>
+<tr><td>El precio es alto para tan poca calidad</td><td>negativo</td><td>positivo</td></tr>
+<tr><td>El servicio fue pesimo</td><td>negativo</td><td>neutral</td></tr></tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

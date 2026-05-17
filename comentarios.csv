@@ -1,21 +1,59 @@
 comentario,sentimiento
 "Me encanta este producto, es excelente",positivo
-"Es horrible, no sirve para nada",negativo
-"Está bien, cumple su función",neutral
-"La calidad es muy buena, lo recomiendo",positivo
-"No me gustó, es muy malo",negativo
-"No está mal, pero podría mejorar",neutral
-"Superó mis expectativas",positivo
-"Es una pérdida de dinero",negativo
-"Funciona normal, nada del otro mundo",neutral
+"La calidad es muy buena y lo recomiendo",positivo
+"Supero mis expectativas desde el primer uso",positivo
 "Estoy muy satisfecho con la compra",positivo
-"Definitivamente no lo volvería a comprar",negativo
-"Es aceptable, pero hay mejores opciones",neutral
 "Excelente servicio y producto",positivo
-"Muy mala experiencia",negativo
-"Ni bueno ni malo",neutral
-"Me gustó mucho",positivo
-"Terrible calidad",negativo
-"Está promedio",neutral
+"Me gusto mucho la experiencia",positivo
 "Lo recomiendo totalmente",positivo
+"El pedido llego rapido y en buen estado",positivo
+"La atencion fue amable y clara",positivo
+"Funciona mejor de lo que esperaba",positivo
+"La aplicacion es facil de usar",positivo
+"Volveria a comprar sin dudarlo",positivo
+"El soporte resolvio mi problema pronto",positivo
+"Muy buena relacion entre precio y calidad",positivo
+"El resultado final fue excelente",positivo
+"Es horrible, no sirve para nada",negativo
+"No me gusto, es muy malo",negativo
+"Es una perdida de dinero",negativo
+"Definitivamente no lo volveria a comprar",negativo
+"Muy mala experiencia",negativo
+"Terrible calidad",negativo
 "No vale la pena",negativo
+"El producto llego danado",negativo
+"La atencion fue lenta y confusa",negativo
+"Me decepciono bastante",negativo
+"El servicio fue pesimo",negativo
+"La plataforma falla constantemente",negativo
+"El precio es alto para tan poca calidad",negativo
+"Nunca respondieron mi solicitud",negativo
+"La entrega fue demasiado tarde",negativo
+"No cumple lo prometido",negativo
+"Esta bien, cumple su funcion",neutral
+"No esta mal, pero podria mejorar",neutral
+"Funciona normal, nada del otro mundo",neutral
+"Es aceptable, pero hay mejores opciones",neutral
+"Ni bueno ni malo",neutral
+"Esta promedio",neutral
+"La experiencia fue regular",neutral
+"El producto cumple con lo basico",neutral
+"No note grandes diferencias",neutral
+"Tiene aspectos buenos y malos",neutral
+"El servicio fue suficiente",neutral
+"La entrega estuvo dentro de lo esperado",neutral
+"Es una opcion comun del mercado",neutral
+"El resultado fue razonable",neutral
+"Podria ser mejor, aunque funciona",neutral
+"La interfaz es clara y rapida",positivo
+"El equipo fue responsable durante todo el proceso",positivo
+"Me parecio una solucion util",positivo
+"La compra fue sencilla y segura",positivo
+"El sistema se queda bloqueado con frecuencia",negativo
+"La respuesta del soporte fue inutil",negativo
+"El producto se rompio al segundo dia",negativo
+"La informacion era incompleta",negativo
+"El rendimiento es estable aunque no sorprende",neutral
+"El contenido es suficiente para empezar",neutral
+"La calidad es intermedia",neutral
+"El resultado depende del uso que se le de",neutral
