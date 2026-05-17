@@ -1,21 +1,21 @@
 {
-  "accuracy": 0.2667,
-  "total_comentarios": 58,
-  "comentarios_entrenamiento": 43,
+  "accuracy": 0.2,
+  "total_comentarios": 59,
+  "comentarios_entrenamiento": 44,
   "comentarios_prueba": 15,
-  "tiempo_procesamiento_segundos": 0.0184,
+  "tiempo_procesamiento_segundos": 0.0071,
   "distribucion": {
     "positivo": {
       "cantidad": 19,
-      "porcentaje": 32.76
+      "porcentaje": 32.2
     },
     "negativo": {
-      "cantidad": 20,
-      "porcentaje": 34.48
+      "cantidad": 21,
+      "porcentaje": 35.59
     },
     "neutral": {
       "cantidad": 19,
-      "porcentaje": 32.76
+      "porcentaje": 32.2
     }
   },
   "matriz_confusion": [
@@ -31,8 +31,8 @@
     ],
     [
       0,
-      4,
-      1
+      5,
+      0
     ]
   ],
   "labels": [
@@ -42,15 +42,15 @@
   ],
   "classification_report": {
     "negativo": {
-      "precision": 0.2,
+      "precision": 0.18181818181818182,
       "recall": 0.4,
-      "f1-score": 0.26666666666666666,
+      "f1-score": 0.25,
       "support": 5.0
     },
     "neutral": {
-      "precision": 0.5,
-      "recall": 0.2,
-      "f1-score": 0.2857142857142857,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
       "support": 5.0
     },
     "positivo": {
@@ -59,17 +59,17 @@
       "f1-score": 0.25,
       "support": 5.0
     },
-    "accuracy": 0.26666666666666666,
+    "accuracy": 0.2,
     "macro avg": {
-      "precision": 0.3444444444444444,
-      "recall": 0.26666666666666666,
-      "f1-score": 0.26746031746031745,
+      "precision": 0.1717171717171717,
+      "recall": 0.20000000000000004,
+      "f1-score": 0.16666666666666666,
       "support": 15.0
     },
     "weighted avg": {
-      "precision": 0.3444444444444444,
-      "recall": 0.26666666666666666,
-      "f1-score": 0.26746031746031745,
+      "precision": 0.1717171717171717,
+      "recall": 0.2,
+      "f1-score": 0.16666666666666666,
       "support": 15.0
     }
   }
