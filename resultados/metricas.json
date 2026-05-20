@@ -3,7 +3,7 @@
   "total_comentarios": 59,
   "comentarios_entrenamiento": 44,
   "comentarios_prueba": 15,
-  "tiempo_procesamiento_segundos": 0.0071,
+  "tiempo_procesamiento_segundos": 0.0201,
   "distribucion": {
     "positivo": {
       "cantidad": 19,
